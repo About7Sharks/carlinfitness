@@ -10,10 +10,9 @@ import Nuxt from './components/nuxt.js'
 import App from './App.js'
 import { setContext, getLocation, getRouteData } from './utils'
 
-import BootstrapVue from 'bootstrap-vue'
 
-Vue.use(BootstrapVue);
 /* Plugins */
+import nuxt_plugin_bootstrapvue_2ca0caea from 'nuxt_plugin_bootstrapvue_2ca0caea' // Source: ./bootstrap-vue.js
 
 
 // Component: <no-ssr>
@@ -135,6 +134,7 @@ async function createApp (ssrContext) {
 
   // Plugin execution
   
+  if (typeof nuxt_plugin_bootstrapvue_2ca0caea === 'function') await nuxt_plugin_bootstrapvue_2ca0caea(app.context, inject)
   
 
   // If server-side, wait for async component to be resolved first
