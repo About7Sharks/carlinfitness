@@ -9,7 +9,6 @@ import NuxtError from './components/nuxt-error.vue'
 import Nuxt from './components/nuxt.js'
 import App from './App.js'
 import { setContext, getLocation, getRouteData } from './utils'
-
 import BootstrapVue from 'bootstrap-vue'
 
 Vue.use(BootstrapVue);

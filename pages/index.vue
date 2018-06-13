@@ -10,7 +10,7 @@
 
       </div>
       <div id="leftFrank" class="row">
-        <h3 class="col-sm-6">The Greatest Athletes leave nothing to chance.  </h3>
+        <h3 class="col-sm-6">The Greatest Athletes leave nothing to chance. Their greatness is a result of thier time dedicated to perfecting their craft.  </h3>
         <br>
      
   </div>
@@ -74,6 +74,7 @@
     color: white;
     width: 50%;
     min-width: 375px;
+    display: flex;
   }
 
   #Franky {
@@ -82,7 +83,7 @@
     max-width: 80vw;
     width: 100%;
     border-bottom: 2px solid white;
-
+  
 
   }
 
