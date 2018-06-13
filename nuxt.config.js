@@ -33,7 +33,7 @@ module.exports = {
           exclude: /(node_modules)/
         })
       }
-    }, modules: [
+    }
+  }, modules: [
       'bootstrap-vue/nuxt',]
-  }
 }
