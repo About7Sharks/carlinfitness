@@ -20,6 +20,7 @@
           <b-nav-item to="trainingGuides"> <h5>Workout Gear</h5> </b-nav-item>
           <b-nav-item to="trainingGuides"> <h5>Supplements</h5> </b-nav-item>
           <b-nav-item to="posts"><h5>Articles</h5></b-nav-item>
+           <b-nav-item to="/FFMI"><h5> FFMI </h5></b-nav-item>
 
 
         </b-navbar-nav>
