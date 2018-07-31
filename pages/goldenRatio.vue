@@ -1,7 +1,6 @@
 <template>
   
 <b-container>
-  <navbar/>
     <br>
 <div id="instructionText">
     <h2>Record the following Measurments</h2>

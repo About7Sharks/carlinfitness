@@ -1,7 +1,5 @@
 <template>
   <b-container fluid>
-    <navbar/>
-
     <div id="leftFrank" class="col-sm-6">
       <h1>
         Combining the Art and Science of Fitness
