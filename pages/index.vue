@@ -1,51 +1,34 @@
 <template>
   <b-container fluid>
     <navbar/>
-    
-            <div id="leftFrank" class="col-sm-6" >
 
-        <h1 >
-         Combining the Art and Science of Fitness
-         
-        </h1>
+    <div id="leftFrank" class="col-sm-6">
+      <h1>
+        Combining the Art and Science of Fitness
+      </h1>
+      <h3>The Greatest Athletes leave nothing to chance. Their greatness is a result of thier time dedicated to perfecting their
+        craft. </h3>
+      <br>
+    </div>
+    <img src="../static/frankZane.jpg" id=Franky alt="">
 
-     
-        <h3>The Greatest Athletes leave nothing to chance. Their greatness is a result of thier time dedicated to perfecting their craft.  </h3>
-        <br>
-     
-  </div>
-      <img src="../static/frankZane.jpg" id=Franky  alt="">
-    
 
 
   </b-container>
 </template>
 
 <script>
-  import navbar from '~/components/navbar.vue'
-
   export default {
-    components: {
-      navbar
-    }
+
   }
 </script>
 
 <style>
-  html {
-    background-color: black;
-    min-height: 100vh;
-    text-align: center;
-    margin: 0 auto;
-    max-width: 1500px;
-    text-shadow:1px 1px 2px rgb(3, 16, 75);
-
-
-  }
-  #__layout{
+  #__layout {
     background-color: black;
   }
-  #links a{
+
+  #links a {
     background-color: #313030;
     border: 1px solid white;
   }
@@ -54,9 +37,9 @@
 
   #leftFrank {
     color: white;
-    
+
     min-width: 375px;
-   
+
   }
 
   #Franky {
@@ -65,7 +48,7 @@
     max-width: 80vw;
     width: 100%;
     border-bottom: 2px solid white;
-  
+
 
   }
 
@@ -83,13 +66,14 @@
       padding-left: 35vw;
     }
   }
-  @media (max-width: 360px){
-    .subtitle{
+
+  @media (max-width: 360px) {
+    .subtitle {
       min-width: 100%;
     }
-    #leftFrank{
+    #leftFrank {
       min-width: 100%;
     }
- 
+
   }
 </style>

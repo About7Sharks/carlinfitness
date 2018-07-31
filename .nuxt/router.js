@@ -3,10 +3,9 @@ import Router from 'vue-router'
 
 Vue.use(Router)
 
-const _0143ec10 = () => import('../pages/philosophy.vue' /* webpackChunkName: "pages/philosophy" */).then(m => m.default || m)
-const _b4160a8a = () => import('../pages/ffmi.vue' /* webpackChunkName: "pages/ffmi" */).then(m => m.default || m)
-const _b7a13f1a = () => import('../pages/goldenRatio.vue' /* webpackChunkName: "pages/goldenRatio" */).then(m => m.default || m)
 const _0a25f384 = () => import('../pages/oneRepMax.vue' /* webpackChunkName: "pages/oneRepMax" */).then(m => m.default || m)
+const _b7a13f1a = () => import('../pages/goldenRatio.vue' /* webpackChunkName: "pages/goldenRatio" */).then(m => m.default || m)
+const _b4160a8a = () => import('../pages/ffmi.vue' /* webpackChunkName: "pages/ffmi" */).then(m => m.default || m)
 const _3587af83 = () => import('../pages/index.vue' /* webpackChunkName: "pages/index" */).then(m => m.default || m)
 
 
@@ -68,14 +67,9 @@ export function createRouter () {
     scrollBehavior,
     routes: [
 		{
-			path: "/philosophy",
-			component: _0143ec10,
-			name: "philosophy"
-		},
-		{
-			path: "/ffmi",
-			component: _b4160a8a,
-			name: "ffmi"
+			path: "/oneRepMax",
+			component: _0a25f384,
+			name: "oneRepMax"
 		},
 		{
 			path: "/goldenRatio",
@@ -83,9 +77,9 @@ export function createRouter () {
 			name: "goldenRatio"
 		},
 		{
-			path: "/oneRepMax",
-			component: _0a25f384,
-			name: "oneRepMax"
+			path: "/ffmi",
+			component: _b4160a8a,
+			name: "ffmi"
 		},
 		{
 			path: "/",

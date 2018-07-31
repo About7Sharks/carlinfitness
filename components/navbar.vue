@@ -16,11 +16,10 @@
         <b-navbar-nav>
           <b-nav-item to="goldenRatio"><h5> Golden Ratio in Bodybuilding </h5></b-nav-item>
           <b-nav-item to="oneRepMax"><h5>One Rep Max Calculator</h5>  </b-nav-item>
+          <b-nav-item to="ffmi"><h5>FFMI</h5>  </b-nav-item>
           <b-nav-item href="https://www.reddit.com/r/Fitness/wiki/programs"><h5>Training Guides</h5>  </b-nav-item>
-          <b-nav-item to="trainingGuides"> <h5>Workout Gear</h5> </b-nav-item>
-          <b-nav-item to="trainingGuides"> <h5>Supplements</h5> </b-nav-item>
-          <b-nav-item to="posts"><h5>Articles</h5></b-nav-item>
-           <b-nav-item to="/FFMI"><h5> FFMI </h5></b-nav-item>
+          <!-- <b-nav-item to="trainingGuides"> <h5>Workout Gear</h5> </b-nav-item>
+          <b-nav-item to="trainingGuides"> <h5>Supplements</h5> </b-nav-item> -->
 
 
         </b-navbar-nav>

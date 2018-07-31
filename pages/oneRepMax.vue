@@ -1,17 +1,23 @@
 <template>
 <b-container>
-  <navbar/>
 <div id="rm">
   <form>    <h1>One Rep Max Calculator</h1>
-
-    <label for="weightLifted">Weight Lifted</label>
+<ul>
+  <li>
+     <label for="weightLifted">Weight Lifted</label>
     <input type="text" id="weightLifted" v-model="weightLifted">
-    <br/>
-    <label for="reps">Number of Reps</label>
+  </li>
+  <li>
+     <label for="reps">Number of Reps</label>
     <input type="text" id="reps" v-model="reps">
-    <br/>
-    <label for="result">Max</label>
+  </li>
+  <li>
+       <label for="result">Max</label>
     <input id="result" v-model="result">
+  </li>
+</ul>
+   
+
   </form></div></b-container>
 </template>
 <style>
@@ -21,20 +27,21 @@
 }
 label{
   padding-right: 20px;
+  width:140px;
   
 }
 form{
   color: white;
 }
+li{
+  list-style: none;
+}
 
 </style>
 <script>
-import navbar from '~/components/navbar.vue'
 
   export default {
-    components:{
-      navbar
-    },
+  
       name: 'oneRepMax',
      
   data() {
