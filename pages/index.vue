@@ -4,7 +4,7 @@
       <h1>
         Combining the Art and Science of Fitness
       </h1>
-      <h3>The Greatest Athletes leave nothing to chance. Their greatness is a result of thier time dedicated to perfecting their
+      <h3>The Greatest Athletes leave nothing to chance. Their greatness is a result of their time dedicated to perfecting their
         craft. </h3>
       <br>
     </div>
